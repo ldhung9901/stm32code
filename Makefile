@@ -1,0 +1,5 @@
+PROJECT_NAME := robot_thesis
+STM_SERIES := STM32F4
+STM_LINE := STM32F407
+STM_TARGET := STM32F407VG
+include $(STM_IDF_PATH)/make/project.mk
