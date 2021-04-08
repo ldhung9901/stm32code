@@ -54,7 +54,7 @@ extern "C" {
 #define TURNING_RADIUS              0.08                                    /*!< Turning radius in degree */
 #define ROBOT_RADIUS                0.1                                     /*!< Robot radius in meter    */
 #define MAX_LINEAR_VELOCITY         (WHEEL_RADIUS * 2 * PI * 60 / 60)       /*!< Max linear velocity */
-#define MAX_ANGULAR_VELOCITY        (MAX_LINEAR_VELOCITY / TURNING_RADIUS)  /*!< Max angular velocity */
+#define MAX_ANGULAR_VELOCITY        (MAX_LINEAR_VELOCITY /4 * TURNING_RADIUS)  /*!< Max angular velocity */
 #define MIN_LINEAR_VELOCITY         -MAX_LINEAR_VELOCITY                    /*!< Min linear velocity */
 #define MIN_ANGULAR_VELOCITY        -MAX_ANGULAR_VELOCITY                   /*!< Min angular velocity */
 
